@@ -1,15 +1,15 @@
 {
   "name": "carthager",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' index.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Jakub Olejnik",
+  "license": "MIT",
+  "description": "Make GitHub releases Carthage binary compatible",
   "dependencies": {
     "@octokit/rest": "^21.1.0",
     "express": "^4.21.2"
